@@ -108,7 +108,7 @@ Test AUC: 0.987
 
 <img width="567" height="432" alt="AUC_result" src="https://github.com/user-attachments/assets/934c20be-5fd9-473e-8f83-bbdd3d40f2cb" />
 
-## Spatial Distribution Flood Risk Categories
+## Spatial Distribution of Flood Risk Categories
 
 <img width="1186" height="989" alt="Spatial_Distribution_result" src="https://github.com/user-attachments/assets/42e3173c-1492-472e-9fcd-fe5ba0a90c81" />
 
