@@ -22,7 +22,7 @@ Ero River is in Moba and Ilejemeje LGAs serving at least seventen communities in
 
 In 2025, two PhD candidates, Andrew ToluTaiwo and Thomas Olonisaye, of the University of Lagos did a study on flood susceptibility mapping in Ero River catchment area in Ekiti State, Nigeria. They collected the Flood Predictors dataset used in this project.
 
-###**Flood Predictors**
+## Flood Predictors
 
 Flood Predictors are environmental features, topographic and hydrologic variables, that influence the occurence or magnitude of flooding incidents.  
 
