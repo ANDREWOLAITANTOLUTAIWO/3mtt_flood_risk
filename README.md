@@ -50,7 +50,7 @@ Flood Predictors are environmental features, topographic and hydrologic variable
 
 - **soil_perm: Soil Permeability.** Soil permeability affects runoff.
 
-**flood_risk: Flood Risk Class.** A location's susceptibility to flooding. This is the target variable. 
+- **flood_risk: Flood Risk Class.** A location's susceptibility to flooding. This is the target variable. 
 
 # Modeling Procedure
 
