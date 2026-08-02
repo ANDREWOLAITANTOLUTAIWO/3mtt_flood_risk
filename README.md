@@ -2,6 +2,7 @@
 
 <img width="209" height="241" alt="3mtt logo2" src="https://github.com/user-attachments/assets/7f69534e-f7cb-4a15-9b2f-692fb1ba7693" />
 
+# Introduction
 
 Riverine communities need flood-risk awareness.
 
@@ -56,6 +57,7 @@ Flood Predictors are environmental features, topographic and hydrologic variable
 **flood_risk: Flood Risk Class.** A location's susceptibility to flooding. This is the target variable. 
 
 # Modeling Procedure
+
 1. Data Exploration
   - Data Cleaning
   - Missing values
@@ -83,6 +85,8 @@ Where:
 - $f(z)$ is the probability of the dependent variable being true or 1
 - z is the linear combination of the independent variables and the coefficients of the model:
 $\displaystyle z = b_0 + b_1x_1 + b_2x_2 + ... + b_nx_n$
+
+# Results
 
 ## Train/Test Accuracy
 
@@ -120,7 +124,7 @@ This distribution of flood risk categories provides valuable insights into the f
 
 This classification is a powerful tool for urban planners, emergency services, and residents to make informed decisions regarding development, resource allocation, and safety measures in the Ero River catchment area.
 
-## Conclusion
+# Conclusion
 
 This project successfully developed and evaluated a Logistic Regression model for classifying flood risk in the Ero River catchment area based on various environmental features. By leveraging detailed geospatial and environmental data, the model provides valuable insights into the flood susceptibility of 722 locations.
 
