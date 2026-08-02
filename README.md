@@ -56,15 +56,15 @@ Flood Predictors are environmental features, topographic and hydrologic variable
 **flood_risk: Flood Risk Class.** A location's susceptibility to flooding. This is the target variable. 
 
 # Modeling Procedure
-1. ### Data Exploration
+1. Data Exploration
   - Data Cleaning
   - Missing values
   - Investigating feature correlation
   - Data normalization/standardization
-2. ### Training, Validation and Testing Split
-3. ### Model training
-4. ### Cross Validation
-5. ### Model Evaluation
+2. Training, Validation and Testing Split
+3. Model training
+4. Cross Validation
+5. Model Evaluation
   - Confusion matrix analysis
   - Train/Test accuracy
   - Area under Curve
