@@ -22,7 +22,7 @@ Ero River is in Moba and Ilejemeje LGAs serving at least seventen communities in
 
 In 2025, two PhD candidates, Andrew ToluTaiwo and Thomas Olonisaye, of the University of Lagos did a study on flood susceptibility mapping in Ero River catchment area in Ekiti State, Nigeria. They collected the Flood Predictors dataset used in this project.
 
-## Flood Predictors
+## Flood Predictors Used in this Project
 
 Flood Predictors are environmental features, topographic and hydrologic variables, that influence the occurence or magnitude of flooding incidents.  
 
@@ -85,15 +85,21 @@ Where:
 $\displaystyle z = b_0 + b_1x_1 + b_2x_2 + ... + b_nx_n$
 
 ## Train/Test Accuracy
-rain Accuracy: 0.931
+
+Train Accuracy: 0.931
+
 Test Accuracy: 0.940
+
+## Confusion Matrix
 
 <img width="683" height="547" alt="Confusion_Matrix_result" src="https://github.com/user-attachments/assets/f5526c34-2a09-4c3e-a59e-77e9d42d68a4" />
 
 From these numbers, we can see that the model is performing quite well, with a higher number of true positives and true negatives. The number of false negatives (4) is lower than false positives (9), which means the model is less likely to miss actual flood-susceptible locations, which is often a critical aspect in flood prediction tasks.
 
 ## Area Under Curve
+
 Train AUC: 0.980
+
 Test AUC: 0.987
 
 <img width="567" height="432" alt="AUC_result" src="https://github.com/user-attachments/assets/934c20be-5fd9-473e-8f83-bbdd3d40f2cb" />
