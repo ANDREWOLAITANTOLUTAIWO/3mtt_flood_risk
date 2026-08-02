@@ -8,7 +8,7 @@ Riverine communities need flood-risk awareness in order to prepare for and avoid
 
 This model classifies a community's flood risk from environmental features. Thus, community members can determine how exposed they are to flood risk by simply imputing their location to the model.  
 
-The model is built around Ero river catchment area. Ero River is in Moba and Ilejemeje LGAs in Ekiti State serving at least seventeen communities with water for irrigation and domestic use. A dam is built on the Ero river at Ikun-Ekiti. But the river do cause flooding during raining seasons, and as a result of the operations of the dam.
+The model is built around Ero river catchment area. Ero River is in Moba and Ilejemeje LGAs in Ekiti State serving at least seventeen communities with water for irrigation and domestic use. A dam is built on the Ero river at Ikun-Ekiti. But the river causes flooding during raining seasons, and as a result of the operations of the dam.
 
 ## Ero River Catchment Area
 
