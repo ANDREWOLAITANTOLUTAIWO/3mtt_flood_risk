@@ -83,9 +83,8 @@ Among such algorithms, we find:
 
 Standardization is the first type of transformation to consider, as a large number of machine learning/statistical algorithms assume that the data they operate on is normally distributed. Standardization is expressed as:
 
-\begin{equation}
-\frac{x_{i} - \text{mean}(x)}{\text{std}(x)}
-\end{equation}
+$\frac{x_{i} - \text{mean}(x)}{\text{std}(x)}$
+
 
 In practice, the shape of the distribution to work with is ignored and the transformation is simply performed by removing the mean and scaling by the standard deviation.
 
@@ -95,11 +94,10 @@ Note: This is not recommended if the histogram of the target variable is far fro
 
 A good alternative to the previous method is range scaling, which is expressed as:
 
-\begin{equation}
-\frac{x_{i} - \min(x)}{\max (x)-\min (x)}
-\end{equation}
+$\frac{x_{i} - \min(x)}{\max (x)-\min (x)}$
 
 for $x$ being the column to treat, and $x_i$ the element to transform. This transformation allows the data to range between 0 and 1 and can be used when the distribution of the data does not meet the normality assumption. Note that this transformer is affected by the presence of outliers.
+
 
 ## Logistic Regression
 Logistic regression is part of the class of generalized linear models (GLMs), which build directly on top of linear regression. These models take the linear fit and map it through a non-linear function.
