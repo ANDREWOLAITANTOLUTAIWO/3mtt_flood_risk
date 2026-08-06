@@ -69,6 +69,34 @@ Flood Predictors are environmental features, topographic and hydrologic variable
 6. Flood Risk Categories
 7. Spatial Distribution of Flood Risk Categories
 
+## Feature Correlation
+
+<img width="835" height="682" alt="Feature_Correlation" src="https://github.com/user-attachments/assets/49898c28-79af-4ea0-a921-26ef765ed136" />
+
+## Data Normalization and Standardization
+
+The sklearn.preprocessing facilitates the transition from 'raw' data to a standard format for algorithm training.
+
+Among such algorithms, we find:
+
+Standardization
+
+Standardization is the first type of transformation to consider, as a large number of machine learning/statistical algorithms assume that the data they operate on is normally distributed. Standardization is expressed as:
+
+𝑥𝑖−mean(𝑥)std(𝑥) 
+
+In practice, the shape of the distribution to work with is ignored and the transformation is simply performed by removing the mean and scaling by the standard deviation.
+
+Note: This is not recommended if the histogram of the target variable is far from Gaussian. In such cases, alternative transformations will be reviewed.
+
+Min-Max Scaling
+
+A good alternative to the previous method is range scaling, which is expressed as:
+
+𝑥𝑖−min(𝑥)max(𝑥)−min(𝑥) 
+
+for  𝑥  being the column to treat, and  𝑥𝑖  the element to transform. This transformation allows the data to range between 0 and 1 and can be used when the distribution of the data does not meet the normality assumption. Note that this transformer is affected by the presence of outliers.
+
 ## Logistic Regression
 Logistic regression is part of the class of generalized linear models (GLMs), which build directly on top of linear regression. These models take the linear fit and map it through a non-linear function.
 
